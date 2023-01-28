@@ -1,0 +1,29 @@
+
+.wrapper {
+   text-align: center;
+   margin: 30px auto;
+   width: 800px;
+}
+
+#secondsTimer, #tensTimer {
+    font-size:2em;
+  }
+
+  body {
+    background-color: #9fd3c7;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  .button {
+    padding: 15px 32px;
+    background-color: #9fd3c7;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    cursor:pointer;
+  }
+
+  .button:hover {
+    color: #9fd3c7;
+    background-color: white;
+    
+  }

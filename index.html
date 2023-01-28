@@ -1,18 +1,21 @@
 <!DOCTYPE html>
     <header>
         <script src="app.js"></script>
+        <link href="styles.css" rel="stylesheet" type="text/css">
         <title>Javascript Stopwatch</title>
     </header>
 <html>
 <body>
 
-<h1>Javascript Stopwatch</h1>
+ <div class="wrapper">
+    <h1 class="title">Javascript Stopwatch</h1>
 
-<p><span id="secondsTimer">00</span>:<span id="tensTimer">00</span></p>
+    <p class="timer"><span id="secondsTimer">00</span>:<span id="tensTimer">00</span></p>
 
-<button id="start" onclick=startButton()>Start</button>
-<button id="stop" onclick=stopTimer()>Stop</button>
-<button id="start" onclick=resetTimer()>Reset</button>
+    <button class='button' id="start" onclick=startButton()>Start</button>
+    <button class='button' onclick=stopTimer()>Stop</button>
+    <button class='button' onclick=resetTimer()>Reset</button>
+</div>   
 
 </body>
 </html>
