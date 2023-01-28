@@ -6,6 +6,7 @@ const startTimer = () => {
 }
 
 const startButton = () => {
+    clearInterval(interval)
     interval = setInterval(startTimer, 10)
 }
 
