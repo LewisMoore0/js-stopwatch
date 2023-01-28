@@ -24,11 +24,14 @@ const resetTimer = () => {
 
 const incrementSeconds = () => {
     document.getElementById('secondsTimer').innerHTML++ 
+    setTensToZero()
+}
+
+const setTensToZero = () => {
     document.getElementById('tensTimer').innerHTML = '00'
 }
 
 const isTensTimerOverOneHundred = (timerIncremement) => {
-    console.log('In tens check')
     if (timerIncremement.innerHTML >= 100) {
         incrementSeconds()
     }
